@@ -17,7 +17,7 @@ public class Main {
         int month = monthScan.nextInt();
 
         //Make sure the month is available
-        if(month < 0 || month > 12){
+        if(month < 1 || month > 12){
             month = 0;
             monthScan = new Scanner(System.in);
             System.out.print("\nType a correct month: ");

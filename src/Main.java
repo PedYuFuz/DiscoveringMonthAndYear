@@ -27,6 +27,8 @@ public class Main {
             System.out.println("\nIt's a leap year!");            
             System.out.println("So... February has 29 days"); 
         //If its not a leap year...
+        }else if(month==2){
+            System.out.println("February has 28 days in a normal year.");
         }else{
             if(month==4 || month==6 || month==9 || month==11){
                 System.out.println("This month has 30 days.");
